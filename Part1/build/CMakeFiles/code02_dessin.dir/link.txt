@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/code02_dessin.dir/Cours1/code02_dessin.cpp.o CMakeFiles/code02_dessin.dir/Common/shaders_utilities.cpp.o -o code02_dessin  -lOpenGL -lGLX -lGLU -lGLEW -lglfw -lpthread 
