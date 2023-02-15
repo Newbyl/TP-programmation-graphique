@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/code02_lumiere.dir/Cours2/code02_lumiere.cpp.o CMakeFiles/code02_lumiere.dir/Common/shaders_utilities.cpp.o -o code02_lumiere  -lOpenGL -lGLX -lGLU -lGLEW -lglfw -lpthread 

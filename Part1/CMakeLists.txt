@@ -81,3 +81,29 @@ add_custom_command(
   COMMAND ${CMAKE_COMMAND} -E copy "${CMAKE_CURRENT_BINARY_DIR}/${CMAKE_CFG_INTDIR}/code05_dessin${CMAKE_EXECUTABLE_SUFFIX}" "${CMAKE_CURRENT_SOURCE_DIR}/Cours1/"
   )
 
+add_executable(icosaedre
+	Cours1/icosaedre.cpp Common/shaders_utilities.cpp
+)
+target_link_libraries(icosaedre
+	${ALL_LIBS}
+)
+add_custom_command(
+  TARGET icosaedre POST_BUILD
+  COMMAND ${CMAKE_COMMAND} -E copy "${CMAKE_CURRENT_BINARY_DIR}/${CMAKE_CFG_INTDIR}/icosaedre${CMAKE_EXECUTABLE_SUFFIX}" "${CMAKE_CURRENT_SOURCE_DIR}/Cours1/"
+  )
+
+add_executable(code01_lumiere
+  Cours2/code01_lumiere.cpp Common/shaders_utilities.cpp
+  )
+target_link_libraries(code01_lumiere
+  ${ALL_LIBS}
+  )
+
+
+ add_executable(code02_lumiere
+   Cours2/code02_lumiere.cpp Common/shaders_utilities.cpp
+   )
+ target_link_libraries(code02_lumiere
+   ${ALL_LIBS}
+   )
+

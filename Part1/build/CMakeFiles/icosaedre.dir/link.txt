@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/icosaedre.dir/Cours1/icosaedre.cpp.o CMakeFiles/icosaedre.dir/Common/shaders_utilities.cpp.o -o icosaedre  -lOpenGL -lGLX -lGLU -lGLEW -lglfw -lpthread 

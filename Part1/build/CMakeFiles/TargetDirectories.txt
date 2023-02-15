@@ -3,5 +3,8 @@
 /home/tpuser/Documents/tp-prog-graphique/Part1/build/CMakeFiles/code03_dessin.dir
 /home/tpuser/Documents/tp-prog-graphique/Part1/build/CMakeFiles/code04_dessin.dir
 /home/tpuser/Documents/tp-prog-graphique/Part1/build/CMakeFiles/code05_dessin.dir
+/home/tpuser/Documents/tp-prog-graphique/Part1/build/CMakeFiles/icosaedre.dir
+/home/tpuser/Documents/tp-prog-graphique/Part1/build/CMakeFiles/code01_lumiere.dir
+/home/tpuser/Documents/tp-prog-graphique/Part1/build/CMakeFiles/code02_lumiere.dir
 /home/tpuser/Documents/tp-prog-graphique/Part1/build/CMakeFiles/edit_cache.dir
 /home/tpuser/Documents/tp-prog-graphique/Part1/build/CMakeFiles/rebuild_cache.dir
